@@ -4,6 +4,12 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 800px) {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 `;
 
 export const PerfilImage = styled.img`
@@ -20,6 +26,9 @@ export const Navigation = styled.nav`
   top: 0;
   align-items: center;
   padding: 0.5rem;
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;
 
 export const ListButtonsNav = styled.ul`
@@ -39,6 +48,7 @@ export const ItemButtonNav = styled.li`
 
 export const LinkButtonNav = styled.a`
   text-decoration: none;
+  font-size: 0.9rem;
   color: #fff;
   padding: 0.5rem;
   cursor: pointer;
@@ -58,18 +68,28 @@ export const Content = styled.main`
 
   padding-top: 3rem;
   padding-bottom: 4rem;
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;
 
 export const ContainerInformations = styled.div`
+  width: 100%;
   justify-content: center;
   align-items: center;
   height: max-content;
   padding: 2rem;
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;
 
 export const ContentInformation = styled.section`
   text-align: center;
   margin: 0 auto;
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;
 
 export const NameInformation = styled.h1`
@@ -92,6 +112,10 @@ export const GithubButton = styled.a`
   &:hover {
     background-color: #e76f51aa;
   }
+  @media (max-width: 800px) {
+    width: 140px;
+    height: 40px;
+  }
 `;
 
 export const ContactArea = styled.footer`
@@ -100,9 +124,13 @@ export const ContactArea = styled.footer`
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding: 0.3rem;
   background-color: #264653;
   width: 100%;
   height: 4rem;
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;
 
 export const ListContacts = styled.ul`
@@ -114,16 +142,22 @@ export const ListContacts = styled.ul`
   margin: 0.6rem auto;
 `;
 export const ItemContact = styled.li`
-  font-size: 12pt;
+  font-size: 1rem;
   color: #fff;
 
   & + & {
     margin-left: 0.8rem;
   }
+  @media (max-width: 800px) {
+    font-size: 11pt;
+  }
 `;
 
 export const CreatorAuthor = styled.span`
-  font-size: 12pt;
+  font-size: 1rem;
   text-align: center;
   color: #fff;
+  @media (max-width: 800px) {
+    font-size: 11pt;
+  }
 `;

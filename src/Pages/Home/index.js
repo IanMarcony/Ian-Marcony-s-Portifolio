@@ -84,7 +84,7 @@ function Home() {
           description="Virtual  Reality Game to assist in teaching history to
          students with ADHD"
           technology={["C#", "Unity Engine", "Google Cardboard SDK"]}
-          link="https://www.youtube.com/embed/KC8-sZJarL0"
+          link="https://www.youtube.com/watch?v=KC8-sZJarL0"
         />
         <ProjectImageItem
           image={ClioLogo}

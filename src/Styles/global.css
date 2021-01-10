@@ -19,3 +19,8 @@ a {
 a {
   cursor: pointer;
 }
+@media (max-width: 800px) {
+  body {
+    width: 100vw;
+  }
+}

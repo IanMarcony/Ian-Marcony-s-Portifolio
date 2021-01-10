@@ -7,6 +7,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;
 
 export const ImageArea = styled.img`
@@ -15,6 +18,10 @@ export const ImageArea = styled.img`
   margin: 0 auto;
   width: 12rem;
   height: 12rem;
+  @media (max-width: 800px) {
+    width: 6rem;
+    height: 6rem;
+  }
 `;
 
 export const ContentArea = styled.div`
@@ -23,11 +30,14 @@ export const ContentArea = styled.div`
   flex-direction: column;
   margin-left: 1rem;
   padding: 0.9rem;
+  @media (max-width: 800px) {
+    width: 50vw;
+  }
 `;
 
 export const TitleProject = styled.h1`
   color: #2a9d8f;
-  font-size: 20pt;
+  font-size: 1.5rem;
   text-align: left;
 `;
 
@@ -36,12 +46,17 @@ export const DescriptionProject = styled.p`
   margin-bottom: 1rem;
   text-align: justify;
   color: #2a9d8f;
-  font-size: 12pt;
+  font-size: 1rem;
+  font-size: 1rem;
+  @media (max-width: 800px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const ListTechnologiesProject = styled.ul``;
 
 export const ItemTechnologyProject = styled.li`
+  font-size: 1rem;
   color: #2a9d8f;
 `;
 
@@ -58,5 +73,10 @@ export const ButtonLink = styled.a`
   transition: background-color 0.2s;
   &:hover {
     background-color: #e76f51aa;
+  }
+  @media (max-width: 800px) {
+    width: 140px;
+    height: 40px;
+    font-size: 0.9rem;
   }
 `;
