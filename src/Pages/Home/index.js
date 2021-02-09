@@ -20,6 +20,10 @@ import CheckIcon from "../../Assets/Images/logo_check.png";
 import DeathIcon from "../../Assets/Images/stand.png";
 import NedIcon from "../../Assets/Images/logo_ned.jpg";
 import WikiIcon from "../../Assets/Images/wikipedia-logotype-of-earth-puzzle.png";
+import ProjectListIcon from "../../Assets/Images/project.svg";
+import IMDBIcon from "../../Assets/Images/imdb.svg";
+import BarberIcon from "../../Assets/Images/logo-barber.svg";
+import OrdemServicoIcon from "../../Assets/Images/technician.svg";
 
 import {
   Container,
@@ -45,6 +49,9 @@ function Home() {
 
   const PitchIcon =
     "https://raw.githubusercontent.com/IanMarcony/Pitch-App/master/Imagens/Logo/logo-pitch.png";
+
+  const HeroIcon =
+    "https://raw.githubusercontent.com/IanMarcony/be-the-hero/master/assets/logo.svg";
 
   return (
     <Container>
@@ -262,6 +269,50 @@ function Home() {
           technology={["Android", "Java"]}
           link="https://github.com/IanMarcony/Pitch-App"
           reverse
+        />
+        <ProjectImageItem
+          image={ProjectListIcon}
+          title="Lista de Projetos"
+          description="This site in ReactJS is to register and list the projects from backend in NodeJS"
+          technology={["ReactJS", "NodeJS", "React Native", "Javascript"]}
+          link="https://github.com/IanMarcony/projects-list"
+        />
+        <ProjectImageItem
+          image={IMDBIcon}
+          title="IMDB-fake"
+          description="This is application to review movies and tv shows"
+          technology={["Android", "ReactJS", "NodeJS", "Javascript", "Java"]}
+          link="https://github.com/IanMarcony/IMDB-app"
+          reverse
+        />
+        <ProjectImageItem
+          image={HeroIcon}
+          title="Be The Hero"
+          description="Application to help ONG with donates"
+          technology={["ReactJS", "NodeJS", "React Native", "Javascript"]}
+          link="https://github.com/IanMarcony/be-the-hero"
+        />
+        <ProjectImageItem
+          image={BarberIcon}
+          title="GoBarber"
+          description="This is application to barber"
+          technology={[
+            "ReactJS",
+            "NodeJS",
+            "React Native",
+            "Docker",
+            "Javascript",
+            "Typescript",
+          ]}
+          link="https://github.com/IanMarcony/Project-Bootcamp"
+          reverse
+        />
+        <ProjectImageItem
+          image={OrdemServicoIcon}
+          title="Costomer Service"
+          description="Application to costomer service"
+          technology={["Spring Boot", "AngularJS", "Java", "Javascript"]}
+          link="https://github.com/IanMarcony/BackendSpring"
         />
       </Content>
       <ContactArea>
