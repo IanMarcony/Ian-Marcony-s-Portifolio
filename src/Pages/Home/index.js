@@ -26,6 +26,7 @@ import BarberIcon from "../../Assets/Images/logo-barber.svg";
 import OrdemServicoIcon from "../../Assets/Images/technician.svg";
 import GithubExplorerIcon from "../../Assets/Images/logo_github_explorer.svg";
 import NeuralIcon from "../../Assets/Images/neural.svg";
+import BotIcon from "../../Assets/Images/support.svg";
 
 import {
   Container,
@@ -331,6 +332,14 @@ function Home() {
           description="This is test about Machine Learning"
           technology={["Javascript"]}
           link="https://github.com/IanMarcony/Test-Rede-Neural"
+        />
+        <ProjectImageItem
+          image={BotIcon}
+          title="Instagram Bot"
+          description="This Bot is to comment in pubs on Instagram with your account "
+          technology={["Python"]}
+          link="https://github.com/IanMarcony/InstagramBot"
+          reverse
         />
       </Content>
       <ContactArea>
