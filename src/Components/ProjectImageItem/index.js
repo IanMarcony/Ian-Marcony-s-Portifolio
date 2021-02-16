@@ -26,7 +26,7 @@ function ProjectImageItem({
         backgroundColor: reverse ? "#e5e6ea" : "#fff",
       }}
     >
-      <ImageArea src={image} alt="Image Project" />
+      <ImageArea src={image} alt={title} />
 
       <ContentArea>
         <TitleProject>{title}</TitleProject>
