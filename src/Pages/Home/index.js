@@ -24,6 +24,8 @@ import ProjectListIcon from "../../Assets/Images/project.svg";
 import IMDBIcon from "../../Assets/Images/imdb.svg";
 import BarberIcon from "../../Assets/Images/logo-barber.svg";
 import OrdemServicoIcon from "../../Assets/Images/technician.svg";
+import GithubExplorerIcon from "../../Assets/Images/logo_github_explorer.svg";
+import NeuralIcon from "../../Assets/Images/neural.svg";
 
 import {
   Container,
@@ -313,6 +315,22 @@ function Home() {
           description="Application to costomer service"
           technology={["Spring Boot", "AngularJS", "Java", "Javascript"]}
           link="https://github.com/IanMarcony/BackendSpring"
+        />
+
+        <ProjectImageItem
+          image={GithubExplorerIcon}
+          title="Github Explorer"
+          description="Application to search repositories from Github"
+          technology={["ReactJS", "Javascript"]}
+          link="https://github.com/IanMarcony/Github-Explorer"
+          reverse
+        />
+        <ProjectImageItem
+          image={NeuralIcon}
+          title="Test Neural Network"
+          description="This is test about Machine Learning"
+          technology={["Javascript"]}
+          link="https://github.com/IanMarcony/Test-Rede-Neural"
         />
       </Content>
       <ContactArea>
