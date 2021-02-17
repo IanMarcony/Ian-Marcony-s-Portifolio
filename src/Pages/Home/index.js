@@ -62,7 +62,23 @@ function Home() {
         <ListButtonsNav>
           <ItemButtonNav>
             <LinkButtonNav
-              href="https://www.linkedin.com/in/ian-marcony-94996319b/"
+              href="https://drive.google.com/file/d/1zc01S4AhHs1kOS1Q6g8PAXr6HY9MMPXP/view?usp=sharing"
+              target="_blank"
+            >
+              My CV in English
+            </LinkButtonNav>
+          </ItemButtonNav>
+          <ItemButtonNav>
+            <LinkButtonNav
+              href="https://drive.google.com/file/d/1vo7rFAPjhKh-_TJH98KGPQtrAfWmKSA2/view?usp=sharing"
+              target="_blank"
+            >
+              My CV in PT-BR
+            </LinkButtonNav>
+          </ItemButtonNav>
+          <ItemButtonNav>
+            <LinkButtonNav
+              href="https://www.linkedin.com/in/ian-marcony/"
               target="_blank"
             >
               LinkedIn
