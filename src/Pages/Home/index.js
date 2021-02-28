@@ -27,6 +27,7 @@ import OrdemServicoIcon from "../../Assets/Images/technician.svg";
 import GithubExplorerIcon from "../../Assets/Images/logo_github_explorer.svg";
 import NeuralIcon from "../../Assets/Images/neural.svg";
 import BotIcon from "../../Assets/Images/support.svg";
+import NodeSurveyIcon from "../../Assets/Images/question.svg";
 
 import {
   Container,
@@ -356,6 +357,13 @@ function Home() {
           technology={["Python"]}
           link="https://github.com/IanMarcony/InstagramBot"
           reverse
+        />
+        <ProjectImageItem
+          image={NodeSurveyIcon}
+          title="Surveys with Node"
+          description="This Node.js Project is from Next Level Week event."
+          technology={["Typescript", "Node.js", "Typeorm"]}
+          link="https://github.com/IanMarcony/NLW04-NODE"
         />
       </Content>
       <ContactArea>
